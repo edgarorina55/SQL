@@ -27,4 +27,9 @@ Working with MySQL using Powershell
                 ENCLOSED BY '"'
                 LINES TERMINATED BY '\n'
                 IGNORE 1 ROWS;
-                
+
+
+MySQL querries
+.select - selects data from database 
+.select distinct 
+    .returns only distinct (different) values; values that are not duplicates of each other 
