@@ -9,3 +9,22 @@ MySQL Notes
 DB table - collection of related data entries consisting of columns and rows 
     .columns - holds specific info about every record in the table 
     .row/record - each individual entry that exists in a table 
+
+
+
+Working with MySQL using Powershell
+
+.to open mysql 
+    mysql -u root -p
+
+.to enable load data local infile when importing 
+    SET GLOBAL local_infile = 1;
+        exit mysql then reconnect 
+            mysql --local-infile=1 -u root -p 
+                LOAD DATA LOCAL INFILE 'C:/Users/edgar/DB/masomo/customers.csv'
+                INTO TABLE customers
+                FIELDS TERMINATED BY ','
+                ENCLOSED BY '"'
+                LINES TERMINATED BY '\n'
+                IGNORE 1 ROWS;
+                
