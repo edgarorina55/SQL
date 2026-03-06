@@ -33,3 +33,19 @@ MySQL querries
 .select - selects data from database 
 .select distinct 
     .returns only distinct (different) values; values that are not duplicates of each other 
+.where 
+    .filters records; extracts those records that fulfill a specified condition 
+
+Primary key
+    .the constraint uniquely identifying each record in a table 
+    .must contain UNIQUE values, and cannot contain NULL values
+    .can only be one in a table
+        .can consist of single or multiple columns(fields)
+    .found in the referenced/ parent table 
+
+
+
+Foreign key
+    .used to prevent actions that would destroy links between tables 
+    >its a field/ collection of fields in one table that refers to the PRIMARY KEY in another table 
+    .found in the child table 
