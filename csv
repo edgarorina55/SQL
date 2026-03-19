@@ -1,0 +1,24 @@
+Comma separated files 
+
+Creating CSV files 
+
+1. manually 
+    .plain text file where values are separated by commas
+        .save it as .csv file 
+
+2. using Excel
+    .open Excel, and enter data in rows/columns 
+        .save file as .csv 
+
+3. using powershell
+    .nitarudia
+
+4. using Python
+    .import csv 
+        .file handling >> with open() 
+
+5. using pandas 
+    .import pandas 
+        .convert from dataframe to .csv
+
+        
